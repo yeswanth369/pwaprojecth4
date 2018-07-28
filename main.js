@@ -34,7 +34,7 @@ function basics(det) {
   childone.appendChild(phone);
 
   var email = document.createElement("a");
-  email.href  = "mailto:urwithdreamracer@gmail.com";
+  email.href  = "mailto:a.yaswanthchowdhary@gmail.com";
   email.textContent = det.email;
   childone.appendChild(email);
 
