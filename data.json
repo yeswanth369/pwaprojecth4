@@ -1,0 +1,27 @@
+{"details":{
+  "image":"dhoni.jpg",
+  "name":"sampath",
+  "phone":"9884741452",
+  "email":"1@gmail.com",
+  "Address":"poranki"
+
+},
+
+"carrer":{
+  "info":"To pursuse a challenging carrer"
+
+},
+"education":[{
+  "qualification":"BTech",
+  "institute":"MIC COLLEGE",
+  "year":"2016-2020",
+  "percentage":"70%"
+},
+{
+  "qualification":"Intermediate",
+  "institute":"Sri chaitanya",
+  "year":"2014-2016",
+  "percentage":"95.4%"
+}
+]
+}

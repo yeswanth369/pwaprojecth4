@@ -1,0 +1,122 @@
+.parent{
+  border: 2px solid black;
+  padding: 2%;
+  font-size: 20px;
+  display: flex;
+  flex-direction:row;
+}
+.child1{
+  border: 2px solid black;
+  padding: 2%;
+  font-size: 20px;
+  margin: 2%;
+  width: 50%;
+
+}
+  .child2{
+  border: 2px solid black;
+  padding: 2%;
+  font-size: 20px;
+  margin:2%;
+  width: 50%;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+  .main{
+     border: 1px solid black;
+     padding: 2%;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+  }
+  h2,h4{
+    color: tomato;
+  }
+  a{
+    text-align: center;
+    color:brown;
+    font-size: 40px;
+    word-wrap: break-word;
+  }
+  .left{
+     border: 2px solid black;
+     padding: 2%;
+     margin: 2%;
+     width: 90%;
+     text-align:center;
+     font-size: 30px;
+     background-color: skyblue;
+
+  }
+  #name{
+    color: mediumseagreen;
+    font-size: 30px;
+    text-align: center;
+  }
+  .table1{
+    width:80%;
+    overflow-x: auto;
+  }
+  .left img{
+      width: 50%;
+      border-radius: 50%;
+      border: 2px solid pink;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .right{
+    border: 2px solid violet;
+    padding: 2%;
+    margin: 2%;
+     width: 90%;
+     background-color: skyblue;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  .main{
+     border: 1px solid black;
+     padding: 2%;
+     display: flex;
+     flex-direction:column;
+     width:100%;
+  }
+  h2,h4{
+    color: ;
+  }
+  a{
+    color:brown;
+    font-size: 40px;
+    word-wrap: break-word;
+  }
+  .left{
+     border: 2px solid black;
+     padding: 2%;
+     margin: 2%;
+     width: 40%;
+     text-align:center;
+     font-size: 30px;
+     background-color: skyblue;
+
+  }
+  #name{
+    color: mediumseagreen;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .left img{
+      width: 50%;
+      border-radius: 50%;
+      border: 2px solid pink;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .right{
+    border: 2px solid violet;
+    padding: 3%;
+    margin: 2%;
+     width: 40%
+     background-color:skyblue;
+  }
+}
